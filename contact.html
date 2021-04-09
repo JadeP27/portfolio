@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Contact</title>
+    <style type="text/css">
+    body{
+      max-width: 100%;
+      height: auto;
+    }
+    form {
+      margin: 175px 325px 175px 325px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .footer {
+        background-color: darkmagenta;
+        color:floralwhite;
+        text-align: center;
+        height:50px;
+    }
+    @media only screen and (min-width: 480px) {
+    /* For mobile phones: */
+    .col-s-12 {width: 100%;}
+    }
+    @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-6 {width: 50%;}
+    .col-s-9 {width: 75%;}
+    .col-s-12 {width: 100%;}
+    }
+    @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-3 {width: 25%;}
+    .col-6 {width: 50%;}
+    .col-9 {width: 75%;}
+    .col-12 {width: 100%;}
+    }
+    </style>
+</head>
+<body background="./Assets/Images/marblebackground.jpg">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkmagenta;">
+      <a class="navbar-brand" href="index.html" style="color:dimgray">About Me</a>
+      <a class="navbar-brand" href="contact.html" style="color:floralwhite">Contact</a>
+      <a class="navbar-brand" href="portfolio.html" style="color:dimgray">Portfolio</a>
+    </nav>
+  </br>
+      <form class="align:center" style="background-color:aqua;"> 
+        <div class="form-group">
+          <label for="inputName"><strong>Name</strong></label>
+          <input type="name" class="form-control" id="inputName">
+          </div>
+        <div class="form-group">
+          <label for="inputEmail"><strong>Email Address</strong></label>
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="inputNumber"><strong>Phone Number</strong></label>
+          <input type="phoneNumber" class="form-control" id="number">
+        </div>
+        <div class="form-group">
+          <label for="inputMessage"><strong>Message</strong></label>
+          <input type="message" class="form-control" id="message">
+        </div>
+        <div>
+          <p> Preferred method of contact </p>
+          <label for="telephone">Telephone</label> <input type="radio" id="telephone" name="info">
+          <label for="email">Email</label> <input type="radio" id="email" name="info">
+        </div>
+        <div>
+        <button type="submit" style=background-color:grey class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+</body>
+<footer class="footer">
+  <p>contact information: Jade Porter :: jnporter.jp@gmail.com :: 757-506-9298</p>
+</footer>
+</html>
